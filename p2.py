@@ -11,8 +11,7 @@ X_train = pad_sequences(X_train, maxlen=200)
 X_test = pad_sequences(X_test, maxlen=200) 
 # Convert the sequences to TF-IDF features 
 from sklearn.feature_extraction.text import TfidfTransformer 
-t
- fidf_transformer = TfidfTransformer() 
+tfidf_transformer = TfidfTransformer() 
 X_train_tfidf = tfidf_transformer.fit_transform(X_train) 
 X_test_tfidf = tfidf_transformer.transform(X_test) 
 # Initialize and train the KNN classifier 
