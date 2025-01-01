@@ -1,3 +1,4 @@
+#Sentiment analysis using Recurrent neural network : IMBb reviews
 import tensorflow as tf 
 from tensorflow.keras.preprocessing.sequence import pad_sequences 
 from tensorflow.keras.models import Sequential 
