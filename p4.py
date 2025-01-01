@@ -1,3 +1,4 @@
+#classification of handwritten digit using cnn multiclass classification MNIST dataset.
 import tensorflow as tf 
 from tensorflow.keras.datasets import mnist 
 from tensorflow.keras.models import Sequential 
