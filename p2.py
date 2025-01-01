@@ -1,3 +1,4 @@
+#Classifying Movie Review: Binary Classification: IMBD dataset
 import tensorflow as tf 
 from tensorflow.keras.datasets import imdb 
 from tensorflow.keras.preprocessing.sequence import pad_sequences 
